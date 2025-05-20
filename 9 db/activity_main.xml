@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp">
+
+    <EditText android:id="@+id/txtName"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Enter Name" />
+
+    <EditText android:id="@+id/txtLocation"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Enter Location" />
+
+    <EditText android:id="@+id/txtDesignation"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:hint="Enter Designation" />
+
+    <Button android:id="@+id/btnSave"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Save" />
+</LinearLayout>
